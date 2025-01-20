@@ -1,0 +1,33 @@
+.register-form {
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    gap: 30px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button {
+    border-radius: 4px;
+  }
+  

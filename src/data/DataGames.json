@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "La Oscuridad Asfixiante",
+    "image": "/images/la-oscuridad-asfixiante.jpg",
+    "price": 74990,
+    "tags": ["Novedad", "Preventa"],
+    "description": "La Oscuridad Asfixiante es un juego de 2 a 5 jugadores, con temática de terror, reglas de movimiento oculto y una innovadora mecánica de línea de visión que enfrenta a un jugador contra el resto."
+  },
+  {
+    "id": 2,
+    "name": "Reinos Rodados Relanzados",
+    "image": "/images/reinos-rodados-relanzados.jpg",
+    "price": 59990,
+    "tags": ["Más Vendido"],
+    "description": "En Reinos rodados relanzados, los jugadores compiten para conseguir la mayor cantidad de estrellas en una serie de minijuegos durante 3 rondas. Este es un juego de mecánica «roll and write», lo que significa que los jugadores escribirán en los componentes del juego usando rotuladores de borrado en seco. En cada turno, todos los jugadores usan los resultados de 2 dados en sus cartas de reino para generar recursos y obtener estrellas."
+  },
+  {
+    "id": 3,
+    "name": "Proyecto Arrecife",
+    "image": "/images/proyecto-arrecife.jpg",
+    "price": 62990,
+    "tags": ["Novedad", "Preventa"],
+    "description": "" 
+  }
+]

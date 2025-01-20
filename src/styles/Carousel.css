@@ -1,0 +1,9 @@
+.carousel-indicators [data-bs-target] {
+  background-color: black; /* Cambiar el color de los indicadores */
+  width: 12px; /* Cambiar el tamaño */
+  height: 12px;
+}
+
+.carousel-indicators .active {
+  background-color: red; /* Color para el indicador activo */
+}

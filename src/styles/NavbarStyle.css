@@ -1,0 +1,48 @@
+/* Elimina el subrayado de todos los enlaces */
+a {
+  text-decoration: none !important;
+  color: black !important;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+/* Estilo global para eliminar puntos de lista si estás usando listas */
+ul,
+li {
+  list-style: none;
+  display: flex;
+}
+
+/* Opcional: Personaliza enlaces con hover */
+a:hover {
+  color: #0a88d1 !important;
+  /* Cambia el color al pasar el mouse */
+}
+
+/* Para Personalizar (Contactanos de Instagram)*/
+.contact {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+.navbar-menu a {
+  text-decoration: none !important;
+  color: black !important;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+/* Estilos para (Juegos de Mesa)*/
+.games {
+  text-decoration: none !important;
+  color: black !important;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
+
+.slash {
+  text-decoration: none !important;
+  color: black !important;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+}
