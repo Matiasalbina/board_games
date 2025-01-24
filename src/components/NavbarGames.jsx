@@ -84,7 +84,7 @@ const Navbar = () => {
               {/* Contenedor del submenú */}
               <div
                 className="absolute hidden group-hover:flex flex-col bg-white shadow-md rounded-md z-50 left-0"
-                style={{ minWidth: "fit-content" }} // Ajusta el ancho automáticamente al contenido
+                 // Ajusta el ancho automáticamente al contenido
               >
                 <ul className="flex flex-col">
                   <li>
