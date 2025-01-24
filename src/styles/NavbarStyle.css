@@ -2,15 +2,18 @@
 a {
   text-decoration: none !important;
   color: black !important;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto';
   font-size: 20px;
+  font-weight: 700;
 }
 
 /* Estilo global para eliminar puntos de lista si estás usando listas */
 ul,
 li {
   list-style: none;
-  display: flex;
+  text-align: center;
+  margin: 0%;
+  width: 100%;
 }
 
 /* Opcional: Personaliza enlaces con hover */
@@ -21,14 +24,16 @@ a:hover {
 
 /* Para Personalizar (Contactanos de Instagram)*/
 .contact {
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto';
   font-size: 20px;
+  font-weight: 700;
 }
 
 .navbar-menu a {
   text-decoration: none !important;
   color: black !important;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto';
+  font-weight: 700;
   font-size: 20px;
 }
 
@@ -36,13 +41,15 @@ a:hover {
 .games {
   text-decoration: none !important;
   color: black !important;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto';
   font-size: 20px;
+  font-weight: 700;
 }
 
 .slash {
   text-decoration: none !important;
   color: black !important;
-  font-family: 'Lobster', cursive;
+  font-family: 'Roboto';
   font-size: 20px;
+  font-weight: 700;
 }

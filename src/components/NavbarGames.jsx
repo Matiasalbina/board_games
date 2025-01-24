@@ -78,38 +78,40 @@ const Navbar = () => {
             </a>
             {/* Submenú desplegable de "Juegos de Mesa" */}
             <div className="hover:bg-yellow-300 relative group p-2 rounded">
-              <button
-                className=" games relative"
-                aria-haspopup="true"
-              >
+              <button className="games relative" aria-haspopup="true">
                 Juegos de Mesa
               </button>
-              {/* Opciones del submenú */}
-              <ul
-                className="absolute hidden group-hover:flex flex-col bg-white shadow-md rounded-md z-50"
-                style={{ minWidth: "150px" }}
+              {/* Contenedor del submenú */}
+              <div
+                className="absolute hidden group-hover:flex flex-col bg-white shadow-md rounded-md z-50 left-0"
+                style={{ minWidth: "fit-content" }} // Ajusta el ancho automáticamente al contenido
               >
-                <li>
-                  <Link to="/eurogames" className="block w-full px-4 py-2 hover:bg-yellow-300">
-                    Eurogames
-                  </Link>
-                </li>
-                <li>
-                  <a href="#" className="block w-full px-4 py-2 hover:bg-yellow-300">
-                    Familiares
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="block w-full px-4 py-2 hover:bg-yellow-300">
-                    Parties
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="block w-full px-4 py-2 hover:bg-yellow-300">
-                    Ver Todo
-                  </a>
-                </li>
-              </ul>
+                <ul className="flex flex-col">
+                  <li>
+                    <Link
+                      to="/eurogames"
+                      className="block px-4 py-2 hover:bg-yellow-300"
+                    >
+                      Eurogames
+                    </Link>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-yellow-300">
+                      Familiares
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-yellow-300">
+                      Parties
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="block px-4 py-2 hover:bg-yellow-300">
+                      Ver Todo
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 

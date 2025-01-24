@@ -21,6 +21,14 @@
     "image": "/images/proyecto-arrecife.jpg",
     "price": 62990,
     "tags": ["Novedad", "Preventa"],
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "Bitoku",
+    "image": "/images/bitoku_prueba.jpg",
+    "price": 62990,
+    "tags": ["Novedad", "Preventa"],
     "description": "" 
   }
 ]
