@@ -1,6 +1,6 @@
 // Importamos el componente Carousel desde react-bootstrap
 import Carousel from "react-bootstrap/Carousel";
-import Image1 from "/images/bitoku_prueba.jpg";
+import Image1 from "../../../backend/uploads/bitoku_prueba.jpg";
 import "../styles/Carousel.css";
 
 // Importa más imágenes si las necesitas

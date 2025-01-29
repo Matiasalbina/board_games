@@ -4,8 +4,10 @@ import Card from "./Cards";
 
 const Products = () => {
   const { products } = useContext(ProductsContext);
-  
+  console.log("🛒 Productos en el frontend:", products); // ✅ Verificar datos
+
   console.log(products);
+  console.log(products.map((p) => p.image));
 
   return (
     <div className="flex justify-center">
@@ -15,7 +17,7 @@ const Products = () => {
           <Card
             key={product.id}
             name={product.name}
-            image={product.image}
+            image={product.image_url}
             price={product.price}
           />
         ))}

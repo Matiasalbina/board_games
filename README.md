@@ -8,4 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-colocar en data.json la ruta de upload/...
+Empezar a agregar juegos
+estudiar AWS para empezar a cargar imagenes ahi
+AWS entrega un link el cual hay que reemplazar en la base de datos
+crear vistas y rutas faltantes 
+hacer el carousel dinamico 
