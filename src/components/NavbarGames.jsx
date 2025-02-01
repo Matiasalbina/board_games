@@ -43,8 +43,8 @@ const Navbar = () => {
               to="/login"
               className="flex items-center gap-1 hover:text-blue-500"
             >
-              <FontAwesomeIcon icon={faUser} className="text-lg sm:hidden" />
-              <span className="hidden sm:block">Inicio Sesión</span>
+              <FontAwesomeIcon icon={faUser} className="text-lg " />
+              <span className="hidden sm:block font-normal">Inicio Sesión</span>
             </Link>
             {/* Slash separador */}
             <span className="slash text-gray-400">/</span>
@@ -52,9 +52,9 @@ const Navbar = () => {
             <a href="#" className="flex items-center gap-1 hover:text-blue-500">
               <FontAwesomeIcon
                 icon={faShoppingCart}
-                className="text-lg sm:hidden"
+                className="text-lg "
               />
-              <span className="hidden sm:block">Carrito de Compras</span>
+              <span className="hidden sm:block font-normal">Carrito de Compras</span>
             </a>
           </div>
         </div>
@@ -70,12 +70,12 @@ const Navbar = () => {
 
           {/* Menú principal para pantallas grandes */}
           <div className="navbar-menu hidden lg:flex items-center gap-8">
-            <a href="#" className="text-lg hover:bg-yellow-300 p-2 rounded">
+            <Link to= "accesories" className="text-lg hover:bg-yellow-300 p-2 rounded">
               Accesorios
-            </a>
-            <a href="#" className="text-lg hover:bg-yellow-300 p-2 rounded">
+            </Link>
+            <Link to= "sales" className="text-lg hover:bg-yellow-300 p-2 rounded">
               Ofertas
-            </a>
+            </Link>
             {/* Submenú desplegable de "Juegos de Mesa" */}
             <div className="hover:bg-yellow-300 relative group p-2 rounded">
               <button className="games relative" aria-haspopup="true">
