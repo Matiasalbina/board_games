@@ -34,7 +34,7 @@ const Navbar = () => {
               alt="Instagram"
               className="w-5 h-5 object-contain"
             />
-            <span className=" contact hidden sm:block">Contáctanos</span>
+            <span className=" contact hidden sm:block text-base">Contáctanos</span>
           </div>
           {/* Opciones de sesión y carrito */}
           <div className="flex items-center gap-6 mr-4">
@@ -44,7 +44,7 @@ const Navbar = () => {
               className="flex items-center gap-1 hover:text-blue-500"
             >
               <FontAwesomeIcon icon={faUser} className="text-lg " />
-              <span className="hidden sm:block font-normal">Inicio Sesión</span>
+              <span className="hidden sm:block font-normal text-base">Inicio Sesión</span>
             </Link>
             {/* Slash separador */}
             <span className="slash text-gray-400">/</span>
@@ -54,7 +54,7 @@ const Navbar = () => {
                 icon={faShoppingCart}
                 className="text-lg "
               />
-              <span className="hidden sm:block font-normal">Carrito de Compras</span>
+              <span className="hidden sm:block font-normal text-base">Carrito de Compras</span>
             </a>
           </div>
         </div>
